@@ -23,7 +23,7 @@
         <i class="fa-solid fa-unlock"></i>
         <label>Contraseña:</label>
         <input type="password" name="Clave" placeholder="Contraseña">
-        <hr>
+        <hr><br>
         
         <button type="submit">Iniciar Sesion</button>
        <a href="registro.php">Crear Cuenta</a>

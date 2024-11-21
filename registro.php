@@ -10,8 +10,8 @@
      crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
-<form action="log/registro_user.php" method="POST">
+
+    <form action="log/registro_user.php" method="POST">
 
     <h1>REGISTRARSE</h1>
     <hr>
@@ -20,7 +20,7 @@
     <input type="text" name="Usuario" placeholder="Nombre De Usuario">
     <br>
 
-    <i class="fa-solid fa-email"></i>
+    <i class="fa-solid fa-envelope"></i>
     <label>Correo:</label>
     <input type="email" name="Correo" placeholder="Correo">
     <br>
@@ -28,10 +28,10 @@
     <i class="fa-solid fa-unlock"></i>
     <label>Contraseña:</label>
     <input type="password" name="Clave" placeholder="Contraseña">
-    <hr>
+    <hr><br>
     <button type="submit">Crear Cuenta</button>
     <a href="index.php">Iniciar Sesion</a>
-</form>
+    </form>
 
 
 </body>

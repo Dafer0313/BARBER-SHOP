@@ -33,15 +33,15 @@
                 </div>   
 
                 <div class="contenedor__login-register">
-
-                    <form action="" class="formulario__login">
+                    
+                    <form action="log/login_user.php" method="POST" class="formulario__login">
 
                         <h2>Iniciar Sesion</h2>
                         <i class="fa-solid fa-user"></i>
-                        <input type="text" placeholder="Usuario">
+                        <input type="text" placeholder="Usuario" name="Usuario">
                         <br><br>
                         <i class="fa-solid fa-unlock"></i>
-                        <input type="passsword" placeholder="Contraseña">
+                        <input type="passsword" placeholder="Contraseña" name="Clave">
                         <button>Entrar</button>
 
                     </form>

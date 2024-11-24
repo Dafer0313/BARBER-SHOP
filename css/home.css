@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: space-between;
     height: 60px;
-    background-color: aqua;
+    background-color: rgb(164, 201, 201);
     align-items: center;
     padding: 10px;
 }
@@ -39,7 +39,7 @@ nav a:hover{
 }
 
 nav{
-    margin-right: 150px;
+    margin-right: 100px;
     
 }
 

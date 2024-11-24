@@ -1,3 +1,20 @@
+<?php
+
+    session_start();
+
+    if (!isset($_SESSION['Usuario'])) {
+        echo '
+        <script>
+            alert("Inicia sesion antes de entrar a la pagina");
+            window.location = "index.php";
+        </script>
+        ';
+        session_destroy();
+        die();
+    }
+  
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -19,6 +36,7 @@
             <a href="">RESERVAS</a>
             <a href="">SOBRE NOSOTROS</a>
             <a href="">CONTACTOS</a>
+            <a href="log/cerrar_sesion.php">CERRAR SESION</a>
         </nav>
 
         

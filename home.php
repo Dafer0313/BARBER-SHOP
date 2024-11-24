@@ -88,9 +88,26 @@
     </section>
 
     <section id="reservas" class="reservations">
-        <h2>Reservas</h2>
-        <p>Haz tu reserva en línea y vive una experiencia a tu medida: tu música favorita y una bebida gratis te están esperando.</p>
-        <a href="#" class="btn">Reserva Ahora</a>
+
+        <h2>HAZ TU RESERVA</h2>
+
+        <form class="reservation-form" action="log/reserva.php" method="POST" >
+
+            <label for="name">Nombre Completo</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" name="phone" placeholder="Tu teléfono" required>
+
+            <label for="date">Fecha</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Hora</label>
+            <input type="time" id="time" name="time" required>
+
+            <br>
+            <button type="submit">Reservar</button>
+        </form>
     </section>
 
     <section id="contacto" class="contact">
